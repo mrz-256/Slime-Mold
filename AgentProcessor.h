@@ -1,6 +1,6 @@
 
-#ifndef MOLDY_AGENTPROCESSOR_H
-#define MOLDY_AGENTPROCESSOR_H
+#ifndef SLIME_MOLD_AGENTPROCESSOR_H
+#define SLIME_MOLD_AGENTPROCESSOR_H
 
 #include <SFML/Graphics.hpp>
 #include <vector>
@@ -85,4 +85,4 @@ private:
 };
 
 
-#endif //MOLDY_AGENTPROCESSOR_H
+#endif //SLIME_MOLD_AGENTPROCESSOR_H

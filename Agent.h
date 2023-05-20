@@ -1,6 +1,6 @@
 
-#ifndef MOLDY_AGENT_H
-#define MOLDY_AGENT_H
+#ifndef SLIME_MOLD_AGENT_H
+#define SLIME_MOLD_AGENT_H
 
 #include <SFML/Graphics.hpp>
 
@@ -11,4 +11,4 @@ struct Agent {
     Agent(const sf::Vector2i &pos, float angle) : pos(pos), angle(angle) {}
 };
 
-#endif //MOLDY_AGENT_H
+#endif //SLIME_MOLD_AGENT_H
