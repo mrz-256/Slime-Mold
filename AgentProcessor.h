@@ -34,7 +34,7 @@ public:
     /// If blurring is false, it instead decrements the colors by this value
     const int DECR_VALUE = 0;
     /// If blurring is false, it also multiplies the color by this value ( probably should be <= 1)
-    const float MULTIPLY_VALUE = 0.9f; // ^this too
+    const float MULTIPLY_VALUE = 0.9f;
 
 private:
     //*****************************************

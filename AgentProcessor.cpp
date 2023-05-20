@@ -10,7 +10,7 @@ AgentProcessor::AgentProcessor(int width, int height) {
     this->HEIGHT = height;
     this->image.create(WIDTH, HEIGHT);
 
-    // TODO: This is not cross-platform
+    // TODO: This is not cross-platform ?(works only on linux)
     this->_seed = std::chrono::duration_cast<std::chrono::milliseconds>
             (std::chrono::high_resolution_clock::now().time_since_epoch()).count();
     std::cout << "SEED: " << _seed << "\n";
