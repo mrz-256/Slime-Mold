@@ -18,22 +18,22 @@ public:
 
     /// The amount of agents(particles)
     const int AGENT_COUNT = 50000;
-    /// The value agents adds to a pixel he was in
+    /// This value gets added to the pixel agent was in
     const int ADD_ON_AGENT = 12;
 
-    /// The distance of the sensor away from agent( how far does he looks to )
+    /// The distance of the sensory area from the agent
     const int DISTANCE_FROM_AGENT = 4;
-    /// The angle from the sensor to the left and right (in radians)
+    /// The angle from the sensor to the left and right from the agents angle(direction) (in radians)
     const float ANGLE_OF_VIEW = 0.4;
 
-    /// If screen is blurred (this adds more color around making the agents more sure where to go to)
+    /// screen blur
     const bool BLURRY = true;
-    /// The radius of blurring, smaller makes it (obviously) more detailed
+    /// The blurring radius
     const int BLUR_RADIUS = 1;
 
-    /// If blurring is false, it instead decrements the colors by this value
+    /// If blurring is false, it instead decrements each cell by this value
     const int DECR_VALUE = 0;
-    /// If blurring is false, it also multiplies the color by this value ( probably should be <= 1)
+    /// If blurring is false, it also multiplies the color by this value ( probably should be in (0..1) )
     const float MULTIPLY_VALUE = 0.9f;
 
 private:
